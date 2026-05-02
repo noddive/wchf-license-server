@@ -23,7 +23,7 @@ except ImportError:
 SECRET_KEY = b"ZhI_YAo_G0NG_FU_ZAI_BU_PA_MEI_CHAI_SH@O_2026"
 
 # URL server Render kamu — ganti setelah deploy
-LICENSE_SERVER_URL = "https://wchf-license-server.onrender.com"
+LICENSE_SERVER_URL = "https://yz-license-server.onrender.com"
 # ─────────────────────────────────────────────────────────
 
 LICENSE_FILE = os.path.join(os.path.expanduser("~"), ".wchf_license.json")

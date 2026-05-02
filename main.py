@@ -23,7 +23,7 @@ SECRET_KEY = os.environ.get("LICENSE_SECRET_KEY", "").encode("utf-8")
 # Buat tabel otomatis saat server start
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="WCHF License Server", docs_url=None, redoc_url=None)
+app = FastAPI(title="YZ License Server", docs_url=None, redoc_url=None)
 
 # CORS — izinkan dari dashboard Vercel kamu
 ALLOWED_ORIGINS = os.environ.get("ALLOWED_ORIGINS", "*").split(",")
